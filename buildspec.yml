@@ -61,5 +61,7 @@ artifacts:
     - demo-0.0.1-SNAPSHOT.jar
     - appspec.yml
     - spring-boot-demo-restart.sh
+  commands:
+   - restart spring-boot-demo
   # ベースディレクトリ
   base-directory: artifacts
